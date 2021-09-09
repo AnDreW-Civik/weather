@@ -126,15 +126,16 @@ class Weather {
   }
 }
 
-let input = document.querySelector(".inp");
+let inputt = document.querySelector(".inp");
 let buttonWeather = document.querySelector(".btn-for-weather");
 
-buttonWeather.addEventListener("click", function () {
+buttonWeather.addEventListener("click", function (e) {
+  e.preventDefault();
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&APPID=5d066958a60d315387d9492393935c19`
+    `http://api.openweathermap.org/data/2.5/weather?q=${inputt.value}&units=metric&APPID=5d066958a60d315387d9492393935c19`
   )
     .then((response) => response.json())
     .then((data) => new Weather(data, parent).render());
 
-  input.value = "";
+  inputt.value = "";
 });
