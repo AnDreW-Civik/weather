@@ -1,0 +1,30 @@
+[
+    {
+        "title": "News 1",
+        "src": "img/beach.jpg",
+        "descript":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.",
+        "name":"AG",
+        "parent":".articles"
+    },
+     {
+        "title": "News 2",
+        "src": "img/beach.jpg",
+        "descript":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa",
+        "name":"AG-1",
+        "parent":".articles"
+    },
+     {
+        "title": "News 3",
+        "src": "img/beach.jpg",
+        "descript":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa",
+        "name":"AG-2",
+        "parent":".articles"
+    },
+     {
+        "title": "News 4",
+        "src": "img/beach.jpg",
+        "descript":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel aliquam adipisci sed cupiditate ut error nulla laboriosam porro ipsa.",
+        "name":"AG-3",
+        "parent":".articles"
+    }
+]

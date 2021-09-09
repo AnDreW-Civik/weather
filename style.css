@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h2,
+h1 {
+  margin: 0;
+}
+
+header {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
