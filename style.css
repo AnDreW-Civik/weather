@@ -27,3 +27,54 @@ header {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.weather {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.weather-temp {
+  padding-top: 10px;
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+
+form {
+  text-align: center;
+}
+
+.city {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-for-weather {
+  background-color: #6dd5ed;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.btn-for-weather:hover {
+  color: white;
+}
+
+.btn-for-weather:active {
+  background: inherit;
+  color: #6dd5ed;
+  border: 1px solid #2193b0;
+}
+
+.inp:hover {
+  border: 2px solid #2193b0;
+  border-radius: 3px;
+}
+.inp {
+  border: 2px solid #6dd5ed;
+  border-radius: 3px;
+}
