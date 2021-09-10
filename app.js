@@ -95,6 +95,7 @@ class Weather {
     (this.input = data.input),
       (this.name = data.name),
       (this.temp = data.main.temp),
+      (this.feels_like = data.main.feels_like),
       (this.pressure = data.main.pressure),
       (this.description = data.weather[0]["description"]),
       (this.humidity = data.main.humidity),
@@ -113,8 +114,13 @@ class Weather {
       <div class="weather-temp">Температура: ${
         Math.round(this.temp) + "&deg" + "C"
       }</div>
-      <div class="weather-pressure">Давление: ${this.pressure}  мм рт. ст.</div>
-      <div class="weather-description">Описание: ${this.description}</div>
+      <div class="weather-pressure">Ощущается как: ${
+        Math.round(this.feels_like) + "&deg" + "C"
+      }</div>
+            <div class="weather-pressure">Давление: ${
+              this.pressure
+            }  мм рт. ст.</div>
+      <div class="weather-description">Погода: ${this.description}</div>
       <div class="weather-humidity">Влажность: ${this.humidity}%</div>
       <div class="weather-speed">Скорость ветра: ${this.speed} км/ч</div>
       <div class="weather-deg">Направление ветра: ${this.deg}&deg</div>
