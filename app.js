@@ -122,6 +122,7 @@ class Weather {
               this.icon
             }.png' class="weather-icon"></img>
     </div>`;
+
     this.parent.prepend(article);
   }
 }
@@ -132,7 +133,7 @@ let buttonWeather = document.querySelector(".btn-for-weather");
 buttonWeather.addEventListener("click", function (e) {
   e.preventDefault();
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${inputt.value}&units=metric&APPID=5d066958a60d315387d9492393935c19`
+    `https://api.openweathermap.org/data/2.5/weather?q=${inputt.value}&units=metric&APPID=5d066958a60d315387d9492393935c19&lang=ru`
   )
     .then((response) => response.json())
     .then((data) => new Weather(data, parent).render());
