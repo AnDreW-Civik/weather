@@ -149,7 +149,7 @@ buttonWeather.addEventListener("click", function (e) {
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=Kharkiv&units=metric&APPID=5d066958a60d315387d9492393935c19&lang=ru`
+    `https://api.openweathermap.org/data/2.5/weather?q=Berlin&units=metric&APPID=5d066958a60d315387d9492393935c19&lang=ru`
   )
     .then((response) => response.json())
     .then((data) => new Weather(data, parent).render());
