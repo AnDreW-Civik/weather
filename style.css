@@ -20,6 +20,9 @@ header {
 .row {
   display: flex;
 }
+.border{
+    overflow: hidden;
+}
 
 .col-12 {
   flex: 0 0 100%;
